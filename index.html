@@ -5,11 +5,14 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Aplicação</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='build/css/global.css'>
 </head>
 <body>
-    <h1>Cadastros de produtos</h1>
-    <div id="wrap">
+    <header class="center">
+        <img src="src/img/logo_vila_salga.png" alt="Logo vila salga" class="logo">
+        <h1>Cadastros de produtos</h1>
+    </header>
+    <div id="wrap" class="center">
         <input type="text" placeholder="Nome:">
         <input type="number" placeholder="Quantidade">
         <input type="text" placeholder="Preço">
@@ -17,7 +20,7 @@
         <input type="text" placeholder="Descrição">
         <input type="text" placeholder="Categoria">
     </div>
-    <div id="botoes">
+    <div id="botoes" class="center">
         <button>Cadastrar</button>
         <button>Excluir</button>
         <button>Editar</button>
@@ -39,6 +42,6 @@
             </tr>
         </table>
     </div>
-    <script src="script.js"></script>
+    <script src="src/js/script.js"></script>
 </body>
 </html>

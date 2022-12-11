@@ -1,0 +1,74 @@
+h1 {
+	font-family: fantasy;
+	text-align: center;
+	color: blue;
+}
+.center {
+    max-width: 1100px;
+    width: 98%;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#wrap {
+	input {
+		border-radius: 5px;
+		width: 30%;
+		height: 30px;
+	}
+	margin-top: 3px;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 1%;
+	background-color: rgb(240, 255, 244);
+}
+#botoes {
+	margin-top: 3px;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 1%;
+	background-color: rgb(240, 255, 244);
+}
+#saida {
+	margin-top: 3px;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 1%;
+	background-color: rgb(240, 255, 244);
+	input {
+		height: 20px;
+		width: 20px;
+	}
+}
+button {
+	width: 30%;
+	height: 35px;
+	background-color: rgb(0, 95, 139);
+	color: white;
+	border-radius: 5px;
+	&:hover {
+		background-color: yellow;
+		color: black;
+	}
+}
+tr {
+	&:hover {
+		background-color: yellow;
+		color: black;
+	}
+}
+table {
+	border: solid black;
+	border-radius: 10px;
+	background-color: rgb(0, 95, 139);
+	color: white;
+}
+td {
+	border: 1px solid white;
+	border-radius: 10px;
+}
